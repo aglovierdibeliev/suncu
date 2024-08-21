@@ -1,0 +1,27 @@
+{
+ "name": "TokenListExample", #List name
+ "logoURI": "https://coin.top/production/logo/usdj.png", #List logo uri
+ "timestamp": 1610339529000, #Update time in millisecond
+ "tokens": [{
+ "chainId": 1, #ChainId, which is currently 1
+ "address": "TQoEPU9q79AbPc4F5Y4Q5S7YRY8AeFGZ9v", #Token address
+ "name": "SunCu", #Token name
+ "symbol": "SunCu", #Token symbol
+ "decimals": 6, #Token decimals
+ "logoURI": "https://github.com/aglovierdibeliev/suncu/blob/main/logo.png" #Token logo uri
+ },
+ {
+ "chainId": 1,
+ "address": "TMwFHYXLJaRUPeW6421aqXL4ZEzPRFGkGT",
+ "name": "USDJ",
+ "symbol": "USDJ",
+ "decimals": 18,
+ "logoURI": "https://coin.top/production/logo/usdj.png"
+ }
+ ],
+ "version": { #Version info
+ "major": 1, #Major version
+ "minor": 0, #Minor version
+ "patch": 0 #Patch version
+ }
+}
